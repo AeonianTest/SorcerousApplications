@@ -1,0 +1,18 @@
+# This file will automatically update with entries for new content after a build and reload.
+# https://github.com/tModLoader/tModLoader/wiki/Localization for info on localization and these files.
+
+Items: {
+	Foci: {
+		DisplayName: Foci
+		Tooltip:
+			'''
+			A soul bound to a construct of Metal and Artifice
+			Tool of a magical practitioner
+			'''
+	}
+
+	SoulFragment: {
+		DisplayName: Soul Fragment
+		Tooltip: "A resting remain of a living creature"
+	}
+}

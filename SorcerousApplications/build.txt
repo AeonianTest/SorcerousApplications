@@ -1,0 +1,3 @@
+displayName = Sourcerous Applications
+author = AeonianTest
+version = 0.1

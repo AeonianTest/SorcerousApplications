@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# IDEs
+.idea
+.vscode
+
+# C# / .NET
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+
+# tModLoader build output
+*.tmod
+
+# Misc
+WIP_Assets/
+.env
+notes.txt
