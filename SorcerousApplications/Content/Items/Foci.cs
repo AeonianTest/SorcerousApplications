@@ -33,7 +33,8 @@ namespace SorcerousApplications.Content.Items
 			recipe1.AddTile(TileID.WorkBenches);
 			recipe1.Register();
 			
-			recipe2.AddIngredient(ItemID.StoneBlock, 5);
+			recipe2.AddIngredient(ModContent.ItemType<SoulFragment>(), 5);
+			recipe2.AddIngredient(ItemID.IronBar, 15);
 			recipe2.AddTile(TileID.WorkBenches);
 			recipe2.Register();
 		}
