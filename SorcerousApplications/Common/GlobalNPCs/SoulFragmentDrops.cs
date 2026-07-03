@@ -9,6 +9,7 @@ namespace SorcerousApplications.Common.GlobalNPCs
     {
         public override void ModifyNPCLoot(NPC npc, NPCLoot npcLoot)
         {
+            // Consider Biome specific drops as well.
             if (npc.type == NPCID.Skeleton || npc.type == NPCID.Ghost)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Content.Items.SoulFragment>(), chanceDenominator: 10));

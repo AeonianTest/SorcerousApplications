@@ -13,6 +13,6 @@ Items: {
 
 	SoulFragment: {
 		DisplayName: Soul Fragment
-		Tooltip: A resting remain of a living creature
+		Tooltip: A resting remain of a once living Human
 	}
 }

@@ -7,7 +7,6 @@ namespace SorcerousApplications.Content.Items
 	// https://github.com/tModLoader/tModLoader/tree/stable/ExampleMod good reference
 	public class Foci : ModItem
 	{
-		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.SorcerousApplications.hjson' file.
 		public override void SetDefaults()
 		{
 			Item.damage = 50;
@@ -25,13 +24,12 @@ namespace SorcerousApplications.Content.Items
 		}
 
 		public override void AddRecipes()
-		{
-			var recipe = CreateRecipe();
-			
-			recipe.AddIngredient(ModContent.ItemType<SoulFragment>(), 5);
-			recipe.AddIngredient(ItemID.IronBar, 15);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.Register();
+		{			
+			CreateRecipe()
+				.AddIngredient(ModContent.ItemType<SoulFragment>(), 5)
+				.AddIngredient(ItemID.IronBar, 15)
+				.AddTile(TileID.WorkBenches)
+				.Register();
 		}
 	}
 }
