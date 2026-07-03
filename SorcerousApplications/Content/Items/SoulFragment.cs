@@ -11,16 +11,17 @@ namespace SorcerousApplications.Content.Items
         public override void SetDefaults()
         {
             Item.value = Item.buyPrice(silver: 1);
+            Item.maxStack = Item.CommonMaxStack;
             Item.rare = ItemRarityID.Blue;
         }
 
         public override void AddRecipes()
         {
-            var recipe1 = CreateRecipe();
+            var recipe = CreateRecipe();
             
-            recipe1.AddIngredient(ItemID.Wood, 3);
-            recipe1.AddTile(TileID.WorkBenches);
-            recipe1.Register();
+            recipe.AddIngredient(ItemID.Wood, 3);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.Register();
         }
     }    
 }

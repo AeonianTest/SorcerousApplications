@@ -26,17 +26,12 @@ namespace SorcerousApplications.Content.Items
 
 		public override void AddRecipes()
 		{
-			var recipe1 = CreateRecipe();
-			var recipe2 = CreateRecipe();
+			var recipe = CreateRecipe();
 			
-			recipe1.AddIngredient(ItemID.DirtBlock, 10);
-			recipe1.AddTile(TileID.WorkBenches);
-			recipe1.Register();
-			
-			recipe2.AddIngredient(ModContent.ItemType<SoulFragment>(), 5);
-			recipe2.AddIngredient(ItemID.IronBar, 15);
-			recipe2.AddTile(TileID.WorkBenches);
-			recipe2.Register();
+			recipe.AddIngredient(ModContent.ItemType<SoulFragment>(), 5);
+			recipe.AddIngredient(ItemID.IronBar, 15);
+			recipe.AddTile(TileID.WorkBenches);
+			recipe.Register();
 		}
 	}
 }
