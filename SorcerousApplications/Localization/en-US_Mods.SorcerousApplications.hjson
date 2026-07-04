@@ -15,4 +15,9 @@ Items: {
 		DisplayName: Soul Fragment
 		Tooltip: A resting remain of a once living Human
 	}
+
+	FlameStaff: {
+		DisplayName: Flame Staff
+		Tooltip: ""
+	}
 }

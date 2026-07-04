@@ -1,10 +1,10 @@
 # Sorcerous Applications
 
-A small [tModLoader](https://github.com/tModLoader/tModLoader) mod for Terraria, focused on magical tools and related items.
+A small tModLoader based mod for Terraria, focused on magical tools and related items.
 
 ## Requirements
 
-- Terraria
+- [Terraria](https://store.steampowered.com/app/105600/Terraria/) (It's fun, buy it!)
 - [tModLoader](https://store.steampowered.com/app/1281930/tModLoader/) (Steam)
 
 ## Status
