@@ -1,4 +1,3 @@
-using SorcerousApplications.Content.Items;
 using Terraria.ID;
 using Terraria.ModLoader;
 

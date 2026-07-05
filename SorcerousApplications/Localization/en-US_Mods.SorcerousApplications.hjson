@@ -18,6 +18,8 @@ Items: {
 
 	FlameStaff: {
 		DisplayName: Flame Staff
-		Tooltip: ""
+		Tooltip: A channel for ethereal flames
 	}
 }
+
+Projectiles.FociProjectile.DisplayName: Foci Projectile
