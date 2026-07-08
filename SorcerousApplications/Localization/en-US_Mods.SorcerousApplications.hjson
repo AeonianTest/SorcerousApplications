@@ -20,6 +20,15 @@ Items: {
 		DisplayName: Flame Staff
 		Tooltip: A channel for ethereal flames
 	}
+
+	ForceStaff: {
+		DisplayName: Force Staff
+		Tooltip: A molder of energy into a baleful ball of magic
+	}
 }
 
-Projectiles.FociProjectile.DisplayName: Foci Projectile
+Projectiles: {
+	FociProjectile.DisplayName: Foci Projectile
+	FlameBurstProjectile.DisplayName: Flame Burst Projectile
+	FlameStaffHoldProjectile.DisplayName: Flame Staff Hold Projectile
+}

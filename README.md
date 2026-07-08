@@ -10,3 +10,4 @@ A small tModLoader based mod for Terraria, focused on magical tools and related 
 ## Status
 
 Early development — content is minimal and subject to change.
+Looking to publish on the Steam Workshop v1 of this mod once basic first weapons are stable and functional within normal Terraria gameplay loop
