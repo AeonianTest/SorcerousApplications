@@ -34,7 +34,7 @@ namespace SorcerousApplications.Content.Items.Weapons
 			Item.shootSpeed = 0f;
 
 			Item.rare = ItemRarityID.Yellow;
-			Item.value = Item.sellPrice(gold: 2);
+			Item.value = Item.sellPrice(gold: 3);
 			Item.UseSound = SoundID.Item20;
 		}
 

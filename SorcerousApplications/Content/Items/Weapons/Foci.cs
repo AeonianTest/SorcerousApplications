@@ -18,18 +18,18 @@ namespace SorcerousApplications.Content.Items.Weapons
 			Item.useStyle = ItemUseStyleID.Rapier;
 			Item.useTime = 20;
 			Item.useAnimation = 20;
-			Item.width = 26;
-			Item.height = 34;
+			Item.width = 30;
+			Item.height = 32;
 
 			Item.knockBack = 2f;
 			Item.noUseGraphic = true; 
 			Item.noMelee = true;      
-			Item.autoReuse = false;
+			Item.autoReuse = true;
 
 			Item.shoot = ModContent.ProjectileType<FociProjectile>();
 			Item.shootSpeed = 2.5f;
 
-			Item.value = Item.buyPrice(silver: 1);
+			Item.value = Item.buyPrice(silver: 10);
 			Item.rare = ItemRarityID.Blue;
 			Item.UseSound = SoundID.Item1;
 		}
