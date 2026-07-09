@@ -16,7 +16,7 @@ namespace SorcerousApplications.Content.Projectiles
 
 		public const int MaxChargeTime = 60;
 		public const int MaxBurstTime = 60;
-		public const int FlamesEveryNTicks = 3;
+		public const int FlamesEveryNTicks = 2;
 
 		public const float ConeSpreadRadians = 0.1f;
 		public const int FlamesPerWave = 4;

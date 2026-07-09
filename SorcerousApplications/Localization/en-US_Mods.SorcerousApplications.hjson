@@ -31,4 +31,6 @@ Projectiles: {
 	FociProjectile.DisplayName: Foci Projectile
 	FlameBurstProjectile.DisplayName: Flame Burst Projectile
 	FlameStaffHoldProjectile.DisplayName: Flame Staff Hold Projectile
+	ForceStaffHoldProjectile.DisplayName: Force Staff Hold Projectile
+	ForceStaffProjectile.DisplayName: Force Staff Projectile
 }
