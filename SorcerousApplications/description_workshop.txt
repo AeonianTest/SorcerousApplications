@@ -1,3 +1,21 @@
 [h1]Sorcerous Applications[/h1]
 
-A mod for a bit more diversity in magical applications
+A small content mod focused on adding more early game magical tools
+
+[h2]Content[/h2]
+
+[b]Soul Fragment[/b]
+Crafting material dropped by Skeletons and Ghosts.
+
+[b]Foci[/b]
+A soul-bound focus for close-range magical thrust attacks.
+
+[b]Flame Staff[/b]
+Channel to charge, then release a short-range burst of fire.
+
+[b]Force Staff[/b]
+Channel to charge, then launch a heavy orb with strong knockback. Pierces enemies and tiles.
+
+[h2]Status[/h2]
+
+Early developmen, pretty much everything subject to change via how I feel about things
