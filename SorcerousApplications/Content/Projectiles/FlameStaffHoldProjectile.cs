@@ -2,6 +2,7 @@ using Microsoft.Xna.Framework;
 using SorcerousApplications.Content.Items.Weapons;
 using Terraria;
 using Terraria.ID;
+using Terraria.Audio;
 using Terraria.ModLoader;
 
 namespace SorcerousApplications.Content.Projectiles
@@ -149,6 +150,9 @@ namespace SorcerousApplications.Content.Projectiles
 		private void RunBurstPhase(Player player)
 		{
 			Timer++;
+
+			if (Timer == 1)
+    			SoundEngine.PlaySound(SoundID.Item34, Projectile.Center);
 
 			Vector2 muzzle = GetPointAlongAim(player, MuzzleOffset);
 			Lighting.AddLight(muzzle, 0.4f, 1.8f, 2.4f);

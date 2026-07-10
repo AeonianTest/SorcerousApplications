@@ -2,6 +2,7 @@ using Microsoft.Xna.Framework;
 using SorcerousApplications.Content.Items.Weapons;
 using Terraria;
 using Terraria.ID;
+using Terraria.Audio;
 using Terraria.ModLoader;
 
 namespace SorcerousApplications.Content.Projectiles
@@ -149,6 +150,8 @@ namespace SorcerousApplications.Content.Projectiles
 				Projectile.Kill();
 				return;
 			}
+
+			SoundEngine.PlaySound(new SoundStyle("Terraria/Sounds/Item_188"), Projectile.Center);
 
 			Vector2 muzzle = GetPointAlongAim(player, MuzzleOffset);
 			Vector2 aim = GetAimDirection(player);
