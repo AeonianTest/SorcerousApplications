@@ -55,7 +55,7 @@ namespace SorcerousApplications.Content.Items.Weapons
 			CreateRecipe()
 				.AddIngredient(ModContent.ItemType<SoulFragment>(), 5)
 				.AddIngredient(ItemID.IronBar, 15)
-				.AddIngredient(ItemID.Sapphire, 5)
+				.AddIngredient(ItemID.Emerald, 5)
 				.AddTile(TileID.WorkBenches)
 				.Register();
 		}

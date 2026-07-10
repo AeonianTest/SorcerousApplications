@@ -84,8 +84,15 @@ namespace SorcerousApplications.Content.Projectiles
 
 			Projectile.Center = playerCenter + holdout;
 			Projectile.velocity = holdout;
-			Projectile.rotation = holdout.ToRotation() + MathHelper.PiOver2;
-			Projectile.spriteDirection = holdout.X < 0 ? -1 : 1;
+
+			// Set facing first
+			Projectile.direction = holdout.X < 0 ? -1 : 1;
+			Projectile.spriteDirection = Projectile.direction;
+
+			// 45° sprite
+			Projectile.rotation = holdout.ToRotation()
+				+ MathHelper.PiOver2
+				- MathHelper.PiOver4 * Projectile.spriteDirection;
 		}
 
 		private void KeepPlayerArmExtended(Player player)

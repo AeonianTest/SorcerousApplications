@@ -6,7 +6,7 @@ namespace SorcerousApplications.Content.Projectiles
 {
 	public class ForceStaffProjectile : ModProjectile
 	{
-		public const int Lifetime = 120;
+		public const int Lifetime = 180;
 
 		public override void SetDefaults()
 		{
