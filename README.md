@@ -7,7 +7,7 @@ A small tModLoader based mod for Terraria, focused on magical tools, gameplay an
 - [Terraria](https://store.steampowered.com/app/105600/Terraria/) (It's fun, buy it!)
 - [tModLoader](https://store.steampowered.com/app/1281930/tModLoader/) (Steam)
 
-## Content (Build x)
+## Content (Build 1.0.0)
 
 - **Soul Fragment** — crafting material; drops from Skeletons and Ghosts
 - **Foci** — close-range magic thrust weapon
